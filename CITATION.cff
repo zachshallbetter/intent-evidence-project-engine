@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Intent and Evidence Project Engine"
+abstract: >-
+  A project-agnostic engine for documentation-first, ticket-first, evidence-qualified
+  software engineering with autonomous agents. Intent governs implementation; issues
+  bound authority; promotion requires declared empirical evidence. The reference
+  implementation provides protocol specifications, JSON schemas, coordinator
+  semantics, validation tooling, and adoption profiles.
+type: software
+authors:
+  - family-names: Shallbetter
+    given-names: Zachary
+    orcid: "https://orcid.org/0009-0009-9450-3429"
+version: "0.2.0"
+date-released: "2026-10-11"
+license: Apache-2.0
+repository-code: "https://github.com/zachshallbetter/IEPE"
+url: "https://github.com/zachshallbetter/IEPE"
+keywords:
+  - intent and evidence
+  - project engine
+  - agent governance
+  - ticket-first engineering
+  - evidence qualification
+  - software process
+  - autonomous agents
+  - protocol
+# doi: 10.5281/zenodo.XXXXXXXX  # concept DOI — fill after first Zenodo version
+
+references:
+  - type: dataset
+    title: "Foundations of Computational Interaction"
+    authors:
+      - family-names: Shallbetter
+        given-names: Zachary
+        orcid: "https://orcid.org/0009-0009-9450-3429"
+    version: "0.5.1"
+    doi: "10.5281/zenodo.23290487"
+    url: "https://doi.org/10.5281/zenodo.23290488"
+    notes: "Related research on formally describing, measuring, modeling, and predicting human-computer interaction."
+  - type: software
+    title: "Fundamental"
+    authors:
+      - family-names: Shallbetter
+        given-names: Zachary
+        orcid: "https://orcid.org/0009-0009-9450-3429"
+    version: "0.11.0"
+    doi: "10.5281/zenodo.20989937"
+    url: "https://doi.org/10.5281/zenodo.20989937"
+    notes: "Related software: platform-native relational field runtime."

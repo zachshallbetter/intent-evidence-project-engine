@@ -23,3 +23,5 @@ htmlcov/
 !**/AGENTS.md
 !**/.agents/
 llms*.txt
+.env
+.env.*

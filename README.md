@@ -1,10 +1,12 @@
-# IEPE Core: Intent and Evidence Project Engine
+# Intent and Evidence Project Engine
+
+**IEPE** is the short name for this project.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Protocol Version](https://img.shields.io/badge/Protocol-IEPE--001%20v0.2.0-green.svg)](docs/PROTOCOL.md)
 [![Python Version](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue.svg)](pyproject.toml)
 
-**IEPE** (Intent and Evidence Project Engine) is a open-source, project-agnostic engine for **documentation-first, ticket-first, evidence-qualified AI software engineering**.
+**IEPE** (Intent and Evidence Project Engine) is an open-source, project-agnostic engine for **documentation-first, ticket-first, evidence-qualified AI software engineering**.
 
 It solves the fundamental failure modes of autonomous coding agents: **governance livelocks, infinite retry loops, phantom completions, unverified claims, and lost project context**.
 
@@ -12,7 +14,7 @@ It solves the fundamental failure modes of autonomous coding agents: **governanc
 
 ## ⚡ Single Agentic Adoption Command
 
-To adopt IEPE on any new or existing project, copy and paste this single command block directly into your AI coding agent (Cursor, Antigravity, Claude, ChatGPT, Windsurf, Devin):
+To adopt IEPE on any new or existing project, copy and paste this single command block directly into a coding agent or assistant that can edit the repository:
 
 ```text
 Adopt IEPE for this repository.
@@ -146,3 +148,18 @@ Documented != Implemented != Tested != Empirically Validated
 ## 📄 License
 
 IEPE Core is open-source software licensed under the [Apache License, Version 2.0](LICENSE).
+
+---
+
+## Citation
+
+If you use this software, please cite:
+
+> Shallbetter, Z. (2026). *Intent and Evidence Project Engine* (Version 0.2.0) [Computer software].
+> https://github.com/zachshallbetter/IEPE
+
+Machine-readable metadata: [`CITATION.cff`](CITATION.cff). Related research: [Foundations of Computational Interaction](https://doi.org/10.5281/zenodo.23290488); related software: [Fundamental](https://doi.org/10.5281/zenodo.20989937).
+
+## License
+
+Apache License 2.0. See [`LICENSE`](LICENSE).

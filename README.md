@@ -1,5 +1,24 @@
 # Intent and Evidence Project Engine
 
+**Identifier:** `IEPE-001`  
+**Version:** `0.2.0`
+**Software package release:** `0.2.2`  
+**Status:** `Normative Candidate`  
+**Date:** `2026-10-20`  
+**Scope:** Operating governance from intent to authorized work, including promotion blockers.
+
+## Question
+
+How does intent become authorized work, and what blocks promotion?
+
+## Non-goals / Refusals
+
+- Treat evaluation as promotion. They are separate; human evidence is required before comprehension and trust claims.
+
+---
+
+# Intent and Evidence Project Engine
+
 **IEPE** is the short name for this project.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
@@ -155,7 +174,7 @@ IEPE Core is open-source software licensed under the [Apache License, Version 2.
 
 If you use this software, please cite:
 
-> Shallbetter, Z. (2026). *Intent and Evidence Project Engine* (Version 0.2.1) [Computer software].
+> Shallbetter, Z. (2026). *Intent and Evidence Project Engine* (Version 0.2.2) [Computer software].
 > https://github.com/zachshallbetter/IEPE
 
 Machine-readable metadata: [`CITATION.cff`](CITATION.cff). Related research: [Foundations of Computational Interaction](https://doi.org/10.5281/zenodo.23290488); related software: [Fundamental](https://doi.org/10.5281/zenodo.20989937).

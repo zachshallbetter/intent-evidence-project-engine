@@ -1,6 +1,6 @@
 {
   "title": "Intent and Evidence Project Engine",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "upload_type": "software",
   "description": "Intent and Evidence Project Engine (IEPE) version 0.2.1: a project-agnostic engine for documentation-first, ticket-first, evidence-qualified software engineering with autonomous agents. Intent governs implementation; issues bound authority; promotion requires declared empirical evidence.",
   "creators": [
@@ -21,9 +21,10 @@
   ],
   "license": "Apache-2.0",
   "access_right": "open",
+  "language": "eng",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/zachshallbetter/IEPE/tree/v0.2.1",
+      "identifier": "https://github.com/zachshallbetter/IEPE/tree/v0.2.2",
       "relation": "isSupplementTo",
       "resource_type": "software"
     },

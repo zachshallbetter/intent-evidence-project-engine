@@ -18,7 +18,7 @@ Resolve conflicts in this order:
 
 ## Single Agent Reference
 
-For the universal single-file cheat-sheet and adoption protocol, see [`docs/REFERENCE.md`](docs/REFERENCE.md).
+For the universal single-file cheat-sheet and adoption protocol, see [`docs/REFERENCE.md`](../docs/REFERENCE.md).
 
 ```text
 Adopt IEPE for this repository.

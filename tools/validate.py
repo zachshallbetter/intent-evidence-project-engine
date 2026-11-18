@@ -83,7 +83,7 @@ def validate_examples() -> int:
 
 
 def validate_templates() -> int:
-    paths = sorted(TEMPLATE_DIR.glob("*.yml"))
+    paths = sorted(path for path in TEMPLATE_DIR.glob("*.yml") if path.name != "config.yml")
     for path in paths:
         document = yaml.safe_load(path.read_text(encoding="utf-8"))
         if not document.get("name") or not document.get("description") or not document.get("body"):

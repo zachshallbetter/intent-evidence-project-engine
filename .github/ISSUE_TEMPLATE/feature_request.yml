@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a change to the protocol, schemas, tools or documentation.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        IEPE keeps documented, implemented, tested and empirically validated as separate claims. Say
+        which of these your proposal asks for. Material work is better framed as an issue contract.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The change you want
+      description: What should be different, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How you imagine it
+      description: A protocol change, a schema field, a tool option, a documentation change.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

@@ -1,0 +1,52 @@
+name: Bug report
+description: The IEPE tools, schemas, validation or documentation are not behaving as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. A minimal reproduction is the fastest path to a fix.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Tools (iepe-init, iepe-compile, iepe-validate)
+        - Core library (iepe_core)
+        - Schemas
+        - Protocol or documentation
+        - CI
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package and protocol version
+      placeholder: iepe-core 0.2.2, protocol IEPE-001 0.2.0 (or a commit hash)
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What should have happened. Quote the protocol or reference section if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: The commands you ran, for example `iepe-validate` or `pytest`, and their output.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: OS, Python version (3.11 or 3.12)

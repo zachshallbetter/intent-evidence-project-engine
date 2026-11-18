@@ -144,6 +144,21 @@ pytest -v
 
 ---
 
+## Repository map
+
+| Path | Contents |
+| :--- | :--- |
+| [`docs/`](docs/) | Protocol, coordinator, adoption and reference specifications |
+| [`schemas/`](schemas/) | JSON schemas for the contracts and records |
+| [`iepe_core/`](iepe_core/) | Python reference implementation |
+| [`tools/`](tools/) | `iepe-init`, `iepe-compile` and `iepe-validate` |
+| [`tests/`](tests/) | Pytest suite |
+| [`examples/`](examples/), [`fixtures/`](fixtures/) | Example projects and conformance fixtures |
+| [`work/`](work/), [`evidence/`](evidence/) | The project's own issue contracts and evidence bundles |
+| [`.agents/`](.agents/) | Agent operating contract and process skills |
+
+---
+
 ## 📊 Current Engine Maturity
 
 ```text
@@ -158,7 +173,7 @@ Documented != Implemented != Tested != Empirically Validated
 | `WAITING_EXTERNAL` Parked State | **Tested** | [`tests/test_coordinator.py`](tests/test_coordinator.py) |
 | Provisional Profile Generation | **Tested** | [`tests/test_bootstrap.py`](tests/test_bootstrap.py) |
 | Contract Schema Suite (16 Schemas) | **Tested** | [`schemas/`](schemas/) |
-| GitHub Issue Templates (8 Templates) | **Tested** | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) |
+| GitHub Issue Templates (8 contract templates, plus bug report and feature request forms) | **Tested** | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) |
 | Conformance Suite (`iepe-validate`) | **Tested** | [`tools/validate.py`](tools/validate.py) |
 | Agent Project Package Compiler | **Tested** | [`tools/compile_package.py`](tools/compile_package.py) |
 
